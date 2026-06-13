@@ -21,7 +21,6 @@ The project includes:
 - `04_Prepare_Informative_TrainTest_10Fold.py`: prepares the train/test dataset structure
 - `05_Informative_ML_Model_Comparison.py`: runs machine learning experiments
 - `06_Informative_LLM_Experiments.py`: runs zero-shot LLM experiments
-- `MEB_100_Goodreads_ML_LLM.xlsx`: main workbook used by the scripts
 
 ## Experimental Setting
 
