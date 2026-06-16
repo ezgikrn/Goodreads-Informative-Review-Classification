@@ -1,6 +1,6 @@
 # MEB Goodreads Informative Review Classification
 
-This repository contains the code and workbook used to classify Turkish Goodreads book reviews as informative or non-informative.
+This repository contains the code and shared datasets used to classify Turkish Goodreads book reviews as informative or non-informative.
 
 ## Overview
 
@@ -10,8 +10,8 @@ The project includes:
 - preprocessing and dataset validation scripts
 - train/test dataset preparation
 - classical machine learning experiments for informative review classification
-- LLM-based zero-shot classification experiments
-- cleaned dataset files prepared for sharing and reproducibility
+- optional LLM-based zero-shot classification experiments
+- raw dataset files prepared for sharing and reproducibility
 
 ## Main Files
 
@@ -22,8 +22,8 @@ The project includes:
 - `04_Prepare_Informative_Dataset.py`: prepares the train/test dataset structure
 - `05_Informative_ML_Model_Comparison.py`: runs machine learning experiments
 - `06_Informative_LLM_Experiments.py`: runs zero-shot LLM experiments
-- `unlabeled_cleaned_embedding_corpus.xlsx`: cleaned unlabeled review corpus used to train the Word2Vec and FastText embedding models
-- `labeled_cleaned_ml_dataset.xlsx`: cleaned labeled dataset used in the machine learning experiments
+- `unlabeled_raw_embedding_corpus.xlsx`: raw unlabeled review corpus with the `review_text` column, corresponding to the external review pool used for the Word2Vec and FastText experiments
+- `labeled_raw_ml_dataset.xlsx`: raw labeled dataset with the `sample_id`, `review_text`, and `informative_label` columns
 
 ## Experimental Setting
 
@@ -89,4 +89,4 @@ python 06_Informative_LLM_Experiments.py
 - `__pycache__`, `.env`, and temporary files should not be committed.
 - The LLM experiments depend on external APIs and may not be fully reproducible over time.
 - The repository includes the code and shared dataset files used in the experimental pipeline.
-- The shared dataset files contain cleaned text only and do not include platform-specific review identifiers.
+- The shared dataset files contain raw review text and do not include platform-specific review identifiers.
