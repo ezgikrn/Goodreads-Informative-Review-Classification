@@ -24,7 +24,6 @@ The project includes:
 - `06_Informative_LLM_Experiments.py`: runs zero-shot LLM experiments
 - `unlabeled_cleaned_embedding_corpus.xlsx`: cleaned unlabeled review corpus used to train the Word2Vec and FastText embedding models
 - `labeled_cleaned_ml_dataset.xlsx`: cleaned labeled dataset used in the machine learning experiments
-- `MEB_100_Goodreads_ML_LLM.xlsx`: main workbook used by the scripts
 
 ## Experimental Setting
 
@@ -89,5 +88,5 @@ python 06_Informative_LLM_Experiments.py
 
 - `__pycache__`, `.env`, and temporary files should not be committed.
 - The LLM experiments depend on external APIs and may not be fully reproducible over time.
-- The workbook is included because it is part of the experimental pipeline.
+- The repository includes the code and shared dataset files used in the experimental pipeline.
 - The shared dataset files contain cleaned text only and do not include platform-specific review identifiers.
