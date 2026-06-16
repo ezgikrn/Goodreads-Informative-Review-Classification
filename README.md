@@ -10,7 +10,7 @@ The project includes:
 - preprocessing and dataset validation scripts
 - train/test dataset preparation
 - classical machine learning experiments for informative review classification
-- optional LLM-based zero-shot classification experiments
+- LLM-based zero-shot classification experiments
 - cleaned dataset files prepared for sharing and reproducibility
 
 ## Main Files
